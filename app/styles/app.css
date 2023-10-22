@@ -1,0 +1,389 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.custom-right-col {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+.open-link-button {
+  background-color: #0a315a; /* Change the background color to your desired color */
+  color: #fff; /* Change the text color to white or a contrasting color */
+  border: none;
+  padding: 10px 45px;
+  margin-right: 10px; /* Add some spacing between buttons */
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+ }
+
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ca02c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin-right: 10px; 
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.connect:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.UnclickedCard {
+  background-color: white;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.ClickedCard {
+  background-color: #0ca02c;
+}
+
+.Card {  
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Card:hover,
+.Card.active {
+  background-color: #0ca02c;
+}
+
+.Card.disable:hover {
+  background-color: white;
+  cursor: auto;
+}
+
+.grey {
+  filter: grayscale();
+}
+
+.Card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.fs-4 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 1.25rem;
+}
+
+.bg-success {
+  background-color: #0ca02c;
+  color: #fff;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.ms-4 {
+  margin-left: 0;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+
+.mintButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ca02c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.mintButton:hover {
+  transform: scale(1.1);
+}
+
+/* CSS for loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* CSS for "MINT NEW EGG!" button */
+.mintButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mintButton:hover {
+  background-color: #218838;
+}
+
+.selected-image {
+  border: 2px solid blue;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.custom-right-col {
+  position: absolute; /* Position the element absolutely */
+  right: 0; /* Adjust the right position as needed */
+  top: 30%; /* Adjust the top position as needed */
+  transform: translateY(-50%); /* Vertically center the element */
+  width: 500px; /* Set the width to your desired value */
+  height: 233px; /* Set the height to your desired value */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 50px; /* Adjust the padding as needed */
+}
+
+.custom-right-col h1 {
+  font-size: 34px; /* Adjust the font size for h1 elements */
+  position: absolute; /* Position the h1 element absolutely */
+  top: 100px; /* Adjust the top position as needed */
+  right: 95px; /* Adjust the right position as needed */
+}
+
+.custom-right-col h2 {
+  font-size: 25px;
+  position: absolute; /* Position the h1 element absolutely */
+  top: 65px; /* Adjust the top position as needed */
+  right: 65px; 
+}
+
+.custom-right-col h3 {
+  font-size: 30px; /* Adjust the font size for h3 elements */
+}
+
+.custom-right-col p {
+  font-size: 18px; /* Adjust the font size for paragraphs */
+  margin-top: 50px; /* Adjust the top margin for paragraphs */
+}
+
+
+.custom-right-col label {
+  font-size: 16px; /* Adjust the font size for labels */
+}
+
+.custom-right-col input[type="number"] {
+  width: 50px; /* Adjust the width of number input fields */
+  font-size: 16px; /* Adjust the font size for number input fields */
+  margin-top: 5px; /* Adjust the top margin for number input fields */
+}
+
+
+.custom-right-col .mt-4 {
+  margin-top: 20px; /* Adjust the top margin for elements with the mt-4 class */
+}
+
+
+.custom-right-col .mt-2 {
+  margin-top: 10px; /* Adjust the top margin for elements with the mt-2 class */
+}
+
+
+.custom-right-col .ms-4 {
+  margin-left: 0; /* Adjust the left margin for elements with the ms-4 class */
+}
+
+/* Styles for elements with the class fs-4 */
+.custom-right-col .fs-4 {
+  font-size: 18px; /* Adjust the font size for elements with the fs-4 class */
+  
+  
+}
+
+/* Styles for elements with the class fs-3 */
+.custom-right-col .fs-3 {
+  font-size: 16px; /* Adjust the font size for elements with the fs-3 class */
+}
+
+/* Styles for the mint button */
+.custom-right-col .mintButton {
+  width: 200px; /* Adjust the width of the mint button */
+  height: 50px; /* Adjust the height of the mint button */
+  font-size: 20px; /* Adjust the font size for the mint button */
+  margin-top: 800px; /* Adjust the top margin for the mint button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ca02c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the mint button on hover */
+.custom-right-col .mintButton:hover {
+  background-color: #218838; /* Adjust the hover background color for the mint button */
+}
+
+/* Hide scrollbar but allow scrolling */
+.scrollable-container {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.scrollable-container .item-list img {
+  width: 100%; /* or whatever width you desire */
+  height: auto; /* to maintain aspect ratio */
+  display: inline-block; /* to remove inline-block gaps */
+  margin: 0 auto; /* to center the image */
+}
+
+.mintButton-fixed {
+  position: fixed;
+  bottom: 65px;  /* adjust as per your requirement */
+  right: 145px;   /* adjust as per your requirement */
+  z-index: 1000; /* to ensure it stays on top of other elements */
+}
+
+.fixed-section {
+  position: fixed;
+  bottom: 160px;  /* adjust as per your requirement */
+  right: 45px;   /* adjust as per your requirement */
+  z-index: 1000; /* to ensure it stays on top of other elements */
+ 
+  padding: 10px;
+  border-radius: 5px; /* optional, for styling */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional, for styling */
+}
+
+.balance-display {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; /* Changed to flex-start to align items to the left */
+  margin-top: 15px;
+  margin-left: 160px;
+}
+
+.individual-balance {
+  color: #FFFFFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.balance-0 {
+  margin-right: 82px;
+}
+
+.balance-1 {
+  margin-right: 80px;
+}
+
+.balance-3 {
+  margin-right: 82px;
+}
+
+.balance-2 {
+  margin-right: 82px;
+}
+
+
+
+.balance-4 {
+  margin-right: 85px; 
+}
